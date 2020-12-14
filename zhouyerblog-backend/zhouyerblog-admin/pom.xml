@@ -3,41 +3,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.zhouyer</groupId>
+        <artifactId>blog</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.zhouyer.blog</groupId>
-    <artifactId>admin</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>admin</name>
-    <description>Demo project for Spring Boot</description>
 
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+    <groupId>com.zhouyer.blog</groupId>
+    <artifactId>zhouyerblog-admin</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>com.zhouyer.blog</groupId>
+            <artifactId>zhouyerblog-auth</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

@@ -3,15 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.zhouyer</groupId>
+        <artifactId>blog</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.zhouyer.blog</groupId>
-    <artifactId>auth</artifactId>
+    <artifactId>zhouyerblog-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auth</name>
+    <name>zhouyerblog-auth</name>
+
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -20,24 +20,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>com.zhouyer.blog</groupId>
+            <artifactId>zhouyerblog-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
