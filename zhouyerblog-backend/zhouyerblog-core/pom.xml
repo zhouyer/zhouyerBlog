@@ -10,6 +10,7 @@
     <groupId>com.zhouyer.blog</groupId>
     <artifactId>zhouyerblog-core</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>zhouyerblog-core</name>
     <description>zhouyerblog-core project for SpringBoot</description>
 
@@ -73,6 +74,15 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- springboot redis依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
         </dependency>
     </dependencies>
 
